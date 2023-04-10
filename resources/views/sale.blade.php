@@ -9,8 +9,11 @@
   <h1>Sale</h1>
   <ul>
     @foreach ($data as $data)
-    {{$data}}
+    <li>
+      {{$data}}
+    </li>
     @endforeach
+
   </ul>
 </body>
 
